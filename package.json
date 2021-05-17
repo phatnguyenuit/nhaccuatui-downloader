@@ -1,7 +1,7 @@
 {
   "name": "@phatnguyenuit/nhaccuatui-downloader",
   "description": "Simple script to download nhaccuatui playlist/song.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "bin/nhaccuatui.js",
   "bin": {
     "nhaccuatui": "bin/nhaccuatui.js"
