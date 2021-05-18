@@ -10,6 +10,9 @@
     "node" : ">=11.14" 
   },
   "engineStrict" : true,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1",
     "xml2js": "^0.4.23"
