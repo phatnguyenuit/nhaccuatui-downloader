@@ -1,6 +1,10 @@
 # nhaccuatui-downloader
+> Simple CLI to download [nhaccuatui](nhaccuatui.vn) songs includes playlists and songs
 
-Simple CLI to download [nhaccuatui](nhaccuatui.vn) songs includes playlists and songs
+[![NPM Version](https://img.shields.io/npm/v/@phatnguyenuit/nhaccuatui-downloader)](https://www.npmjs.com/package/@phatnguyenuit/nhaccuatui-downloader) 
+[![NPM License](https://img.shields.io/npm/l/@phatnguyenuit/nhaccuatui-downloader)](https://github.com/phatnguyenuit/nhaccuatui-downloader/blob/master/LICENSE) 
+[![NPM Downloads](https://img.shields.io/npm/dt/@phatnguyenuit/nhaccuatui-downloader)](https://www.npmjs.com/package/@phatnguyenuit/nhaccuatui-downloader) 
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/@phatnguyenuit/nhaccuatui-downloader)](https://www.npmjs.com/package/@phatnguyenuit/nhaccuatui-downloader)
 
 ## Installation
 
