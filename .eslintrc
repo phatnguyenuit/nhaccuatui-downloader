@@ -1,0 +1,18 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": ["node", "promise", "import", "prettier"],
+  "extends": [
+    "standard",
+    "plugin:node/recommended",
+    "plugin:promise/recommended",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": "warn"
+  }
+}

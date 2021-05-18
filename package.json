@@ -6,13 +6,37 @@
   "bin": {
     "nhaccuatui": "bin/nhaccuatui.js"
   },
+  "engines" : { 
+    "node" : ">=11.14" 
+  },
+  "engineStrict" : true,
   "dependencies": {
     "node-fetch": "^2.6.1",
     "xml2js": "^0.4.23"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@release-it/conventional-changelog": "^2.0.1",
+    "commitizen": "^4.2.4",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "release-it": "^14.6.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/nhaccuatui",
+    "commit": "git-cz",
+    "lint:fix": "yarn lint --fix",
+    "lint": "eslint **/*.js",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -24,5 +48,24 @@
   "bugs": {
     "url": "https://github.com/phatnguyenuit/nhaccuatui-downloader/issues"
   },
-  "homepage": "https://github.com/phatnguyenuit/nhaccuatui-downloader#readme"
+  "homepage": "https://github.com/phatnguyenuit/nhaccuatui-downloader#readme",
+  "lint-staged": {
+    "*.{js}": [
+      "yarn lint:fix"
+    ],
+    "{*.{json,md}}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

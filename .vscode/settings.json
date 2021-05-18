@@ -1,6 +1,10 @@
 {
-  "cSpell.words": [
-    "nhaccuatui",
-    "tracklist"
-  ]
+  "cSpell.words": ["nhaccuatui", "tracklist"],
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
