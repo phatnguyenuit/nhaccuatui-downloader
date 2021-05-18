@@ -1,6 +1,6 @@
 # nhaccuatui-downloader
 
-> Simple CLI to download playlist and songs from [nhaccuatui.com](nhaccuatui.com).
+> Simple CLI to download playlist and songs from [nhaccuatui.com](https://www.nhaccuatui.com).
 
 [![NPM Version](https://img.shields.io/npm/v/@phatnguyenuit/nhaccuatui-downloader)](https://www.npmjs.com/package/@phatnguyenuit/nhaccuatui-downloader) 
 [![NPM License](https://img.shields.io/npm/l/@phatnguyenuit/nhaccuatui-downloader)](https://github.com/phatnguyenuit/nhaccuatui-downloader/blob/master/LICENSE) 
