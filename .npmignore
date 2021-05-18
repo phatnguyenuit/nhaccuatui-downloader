@@ -1,1 +1,6 @@
 .vscode/
+.npmrc
+.prettierrc
+.release-it.json
+commitlint.config.js
+.eslintrc
