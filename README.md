@@ -1,5 +1,7 @@
 # nhaccuatui-downloader
 
+Simple CLI to download [nhaccuatui](nhaccuatui.vn) songs includes playlists and songs
+
 ## Installation
 
 - Install
