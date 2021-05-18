@@ -1,7 +1,7 @@
 {
   "name": "@phatnguyenuit/nhaccuatui-downloader",
   "description": "Simple CLI to download [nhaccuatui](nhaccuatui.vn) songs includes playlists and songs.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "bin/nhaccuatui.js",
   "bin": {
     "nhaccuatui": "bin/nhaccuatui.js"
