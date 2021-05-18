@@ -1,4 +1,6 @@
 .vscode/
+.github/
+
 .npmrc
 .prettierrc
 .release-it.json
