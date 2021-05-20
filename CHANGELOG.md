@@ -1,3 +1,5 @@
+## [1.2.4](https://github.com/phatnguyenuit/nhaccuatui-downloader/compare/v1.2.3...v1.2.4) (2021-05-20)
+
 ## [1.2.3](https://github.com/phatnguyenuit/nhaccuatui-downloader/compare/v1.2.2...v1.2.3) (2021-05-19)
 
 ## [1.2.2](https://github.com/phatnguyenuit/nhaccuatui-downloader/compare/v1.2.1...v1.2.2) (2021-05-18)
