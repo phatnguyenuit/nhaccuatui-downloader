@@ -45,7 +45,7 @@
     "type": "git",
     "url": "git+https://github.com/phatnguyenuit/nhaccuatui-downloader.git"
   },
-  "keywords": [],
+  "keywords": ["nodejs", "cli", "nhaccuatui", "downloader"],
   "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
   "license": "MIT",
   "bugs": {
